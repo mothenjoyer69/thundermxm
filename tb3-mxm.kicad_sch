@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f3b449ef-e937-40a9-b846-24224d67c908")
 	(paper "A3")
+	(title_block
+		(title "ThunderMXM")
+		(date "2025-06-03")
+		(rev "1.0")
+		(company "mothenjoyer69")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
@@ -214,9 +220,35 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "To-do:\n- Finish schematics!!!\n- Finalize layout\n- Route it all \n- Stop being lazy and just route it all"
+		(exclude_from_sim no)
+		(at 26.924 69.596 0)
+		(effects
+			(font
+				(size 3.556 3.556)
+				(thickness 0.7112)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "e44685cf-093f-4cc2-b9a1-aa4d5d68ebf5")
+	)
+	(text "ThunderMXM"
+		(exclude_from_sim no)
+		(at 149.606 38.354 0)
+		(effects
+			(font
+				(size 12.192 12.192)
+				(thickness 2.4384)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef49a1f1-cd5a-4d09-890a-5b97764eebb0")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 35.56 90)
+		(at 374.65 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -225,7 +257,7 @@
 		(fields_autoplaced yes)
 		(uuid "2da443cf-d614-4fe4-bdcb-1a08dcf9d4a7")
 		(property "Reference" "#PWR021"
-			(at 40.64 35.56 0)
+			(at 381 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -234,7 +266,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 35.5599 90)
+			(at 378.46 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -243,7 +275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 35.56 0)
+			(at 374.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -252,7 +284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 35.56 0)
+			(at 374.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -261,7 +293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 35.56 0)
+			(at 374.65 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -283,7 +315,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 25.4 90)
+		(at 372.11 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -292,7 +324,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d1cf2c7-f3e7-40fc-a3c2-67004e81fd23")
 		(property "Reference" "H1"
-			(at 30.48 19.05 90)
+			(at 370.84 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -300,7 +332,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 30.48 21.59 90)
+			(at 370.84 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -308,7 +340,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 31.75 25.4 0)
+			(at 372.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -317,7 +349,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 25.4 0)
+			(at 372.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -326,7 +358,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 25.4 0)
+			(at 372.11 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -348,7 +380,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 45.72 90)
+		(at 372.11 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -357,7 +389,7 @@
 		(fields_autoplaced yes)
 		(uuid "663d0adc-d3b5-4f2a-a94c-5119de754097")
 		(property "Reference" "H3"
-			(at 30.48 39.37 90)
+			(at 370.84 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -365,7 +397,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 30.48 41.91 90)
+			(at 370.84 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,7 +405,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 31.75 45.72 0)
+			(at 372.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -382,7 +414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 45.72 0)
+			(at 372.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -391,7 +423,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 45.72 0)
+			(at 372.11 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -413,7 +445,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 55.88 90)
+		(at 374.65 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -422,7 +454,7 @@
 		(fields_autoplaced yes)
 		(uuid "7090bdcc-cad9-495b-a7af-edacac64a3f9")
 		(property "Reference" "#PWR023"
-			(at 40.64 55.88 0)
+			(at 381 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -431,7 +463,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 55.8799 90)
+			(at 378.46 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -440,7 +472,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 55.88 0)
+			(at 374.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -449,7 +481,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 55.88 0)
+			(at 374.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -458,7 +490,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 55.88 0)
+			(at 374.65 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -480,7 +512,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 55.88 90)
+		(at 372.11 114.3 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -489,7 +521,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a5b9ed1-c77d-4894-b2ce-e29e1404c43a")
 		(property "Reference" "H4"
-			(at 30.48 49.53 90)
+			(at 370.84 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +529,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 30.48 52.07 90)
+			(at 370.84 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -505,7 +537,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 31.75 55.88 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -514,7 +546,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 55.88 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -523,7 +555,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 55.88 0)
+			(at 372.11 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -545,7 +577,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 35.56 90)
+		(at 372.11 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -554,7 +586,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f759dec-500b-4092-9cfa-aacdb59a3fee")
 		(property "Reference" "H2"
-			(at 30.48 29.21 90)
+			(at 370.84 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -562,7 +594,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 30.48 31.75 90)
+			(at 370.84 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -570,7 +602,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 31.75 35.56 0)
+			(at 372.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -579,7 +611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 35.56 0)
+			(at 372.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -588,7 +620,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 35.56 0)
+			(at 372.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +642,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 25.4 90)
+		(at 374.65 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -619,7 +651,7 @@
 		(fields_autoplaced yes)
 		(uuid "842245e4-1c31-48f6-a1a3-17affbd266c7")
 		(property "Reference" "#PWR020"
-			(at 40.64 25.4 0)
+			(at 381 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,7 +660,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 25.3999 90)
+			(at 378.46 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -637,7 +669,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 25.4 0)
+			(at 374.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -646,7 +678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 25.4 0)
+			(at 374.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -655,7 +687,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 25.4 0)
+			(at 374.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -677,7 +709,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 31.75 67.31 90)
+		(at 372.11 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -686,7 +718,7 @@
 		(fields_autoplaced yes)
 		(uuid "8f4b8a20-8ad8-4112-a0dc-abff8a55c624")
 		(property "Reference" "H5"
-			(at 30.48 60.96 90)
+			(at 370.84 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -694,7 +726,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 30.48 63.5 90)
+			(at 370.84 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -702,7 +734,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad"
-			(at 31.75 67.31 0)
+			(at 372.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -711,7 +743,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 67.31 0)
+			(at 372.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -720,7 +752,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 31.75 67.31 0)
+			(at 372.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -742,7 +774,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 67.31 90)
+		(at 374.65 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -751,7 +783,7 @@
 		(fields_autoplaced yes)
 		(uuid "b698e33a-61dd-4f52-bf03-f31cfa0a2b17")
 		(property "Reference" "#PWR024"
-			(at 40.64 67.31 0)
+			(at 381 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -760,7 +792,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 67.3099 90)
+			(at 378.46 125.7299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -769,7 +801,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 67.31 0)
+			(at 374.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -778,7 +810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 67.31 0)
+			(at 374.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -787,7 +819,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 67.31 0)
+			(at 374.65 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -809,7 +841,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 45.72 90)
+		(at 374.65 104.14 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -818,7 +850,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba25bcd1-86a1-4f9a-959e-2bbfce21589b")
 		(property "Reference" "#PWR022"
-			(at 40.64 45.72 0)
+			(at 381 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -827,7 +859,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 45.7199 90)
+			(at 378.46 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -836,7 +868,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 45.72 0)
+			(at 374.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -845,7 +877,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 45.72 0)
+			(at 374.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -854,7 +886,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 45.72 0)
+			(at 374.65 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -875,8 +907,8 @@
 		)
 	)
 	(sheet
-		(at 58.42 121.92)
-		(size 45.72 25.4)
+		(at 305.3705 210.1205)
+		(size 43.18 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -891,7 +923,7 @@
 		)
 		(uuid "34a06053-32bd-43b0-8770-8d8673e602b6")
 		(property "Sheetname" "JH7440 M.2"
-			(at 58.42 121.2084 0)
+			(at 305.3705 209.4089 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -900,7 +932,7 @@
 			)
 		)
 		(property "Sheetfile" "m2-tb3.kicad_sch"
-			(at 58.42 147.9046 0)
+			(at 305.3705 242.4551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -917,7 +949,7 @@
 		)
 	)
 	(sheet
-		(at 69.85 66.04)
+		(at 306.0055 171.3855)
 		(size 43.18 31.75)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -933,7 +965,7 @@
 		)
 		(uuid "685777f1-c9f2-4bf8-9058-ed8cff8e829a")
 		(property "Sheetname" "USB and Display Outputs"
-			(at 69.85 65.3284 0)
+			(at 306.0055 170.6739 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +974,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 69.85 98.3746 0)
+			(at 306.0055 203.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -959,8 +991,8 @@
 		)
 	)
 	(sheet
-		(at 135.89 78.74)
-		(size 57.15 41.91)
+		(at 350.52 171.45)
+		(size 43.1155 31.6855)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -975,7 +1007,7 @@
 		)
 		(uuid "adb912ae-2841-4f5a-9092-67f4a9a913a1")
 		(property "Sheetname" "MXM 3.0b connector"
-			(at 135.89 78.0284 0)
+			(at 350.52 170.7384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -984,7 +1016,7 @@
 			)
 		)
 		(property "Sheetfile" "MXM.kicad_sch"
-			(at 135.89 121.2346 0)
+			(at 350.52 203.7201 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1001,8 +1033,8 @@
 		)
 	)
 	(sheet
-		(at 156.21 157.48)
-		(size 45.72 25.4)
+		(at 351.1149 210.1281)
+		(size 43.1556 31.7424)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1017,7 +1049,7 @@
 		)
 		(uuid "d8d38bc4-05a1-41f8-a7ba-6fa72fe25215")
 		(property "Sheetname" "Power"
-			(at 156.21 156.7684 0)
+			(at 351.1149 209.4165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1026,7 +1058,7 @@
 			)
 		)
 		(property "Sheetfile" "POWER.kicad_sch"
-			(at 156.21 183.4646 0)
+			(at 351.1149 242.4551 0)
 			(effects
 				(font
 					(size 1.27 1.27)
