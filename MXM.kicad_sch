@@ -1,0 +1,7422 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3ac1ecd2-4cad-419b-910a-8f576483a9ba")
+	(paper "A2")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "mxm:AS0B826-S78B-7H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "MXM1"
+				(at 7.62 -182.88 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "AS0B826-S78B-7H"
+				(at 0 -185.42 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:CONN-SMD_AS0B826-S78B-7H"
+				(at 0 -190.5 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FOXCONN(富士康)"
+				(at 0 -193.04 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C426232"
+				(at 0 -195.58 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "JLC Part" "Extended Part"
+				(at 0 -198.12 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AS0B826-S78B-7H_0_1"
+				(rectangle
+					(start -13.97 180.34)
+					(end 13.97 -180.34)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -12.7 179.07)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 177.8 0)
+					(length 2.54)
+					(name "E1_PWR_SRC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 175.26 0)
+					(length 2.54)
+					(name "E3_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 172.72 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 170.18 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 167.64 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 165.1 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 162.56 0)
+					(length 2.54)
+					(name "5V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 160.02 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 157.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 154.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 152.4 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 149.86 0)
+					(length 2.54)
+					(name "PEX_STD_SW#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 147.32 0)
+					(length 2.54)
+					(name "VGA_DISABLE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 144.78 0)
+					(length 2.54)
+					(name "PNL_PWR_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 142.24 0)
+					(length 2.54)
+					(name "PNL_BL_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 139.7 0)
+					(length 2.54)
+					(name "PNL_BL_PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 137.16 0)
+					(length 2.54)
+					(name "HDMI_CEC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 134.62 0)
+					(length 2.54)
+					(name "LVDS_L_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 132.08 0)
+					(length 2.54)
+					(name "LVDS_DDC_DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 129.54 0)
+					(length 2.54)
+					(name "LVDS_DDC_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 127 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 124.46 0)
+					(length 2.54)
+					(name "OEM1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 121.92 0)
+					(length 2.54)
+					(name "OEM3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 119.38 0)
+					(length 2.54)
+					(name "OEM5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 116.84 0)
+					(length 2.54)
+					(name "OEM7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 114.3 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 111.76 0)
+					(length 2.54)
+					(name "PEX_RX15#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "49"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 109.22 0)
+					(length 2.54)
+					(name "PEX_RX15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "51"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 106.68 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "53"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 104.14 0)
+					(length 2.54)
+					(name "PEX_RX14#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "55"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 101.6 0)
+					(length 2.54)
+					(name "PEX_RX14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "57"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 99.06 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "59"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 96.52 0)
+					(length 2.54)
+					(name "PEX_RX13#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 93.98 0)
+					(length 2.54)
+					(name "PEX_RX13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 91.44 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "65"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 88.9 0)
+					(length 2.54)
+					(name "PEX_RX12#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 86.36 0)
+					(length 2.54)
+					(name "PEX_RX12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 83.82 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 81.28 0)
+					(length 2.54)
+					(name "PEX_RX11#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 78.74 0)
+					(length 2.54)
+					(name "PEX_RX11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "75"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 76.2 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "77"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 73.66 0)
+					(length 2.54)
+					(name "PEX_RX10#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "79"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 71.12 0)
+					(length 2.54)
+					(name "PEX_RX10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "81"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 68.58 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "83"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 66.04 0)
+					(length 2.54)
+					(name "PEX_RX9#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "85"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 63.5 0)
+					(length 2.54)
+					(name "PEX_RX9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "87"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 60.96 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "89"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 58.42 0)
+					(length 2.54)
+					(name "PEX_RX8#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "91"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 55.88 0)
+					(length 2.54)
+					(name "PEX_RX8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "93"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 53.34 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "95"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 50.8 0)
+					(length 2.54)
+					(name "PEX_RX7#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "97"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 48.26 0)
+					(length 2.54)
+					(name "PEX_RX7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "99"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 45.72 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "101"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 43.18 0)
+					(length 2.54)
+					(name "PEX_RX6#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "103"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 40.64 0)
+					(length 2.54)
+					(name "PEX_RX6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "105"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 38.1 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "107"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 35.56 0)
+					(length 2.54)
+					(name "PEX_RX5#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "109"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 33.02 0)
+					(length 2.54)
+					(name "PEX_RX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "111"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 30.48 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "113"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 27.94 0)
+					(length 2.54)
+					(name "PEX_RX4#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "115"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 25.4 0)
+					(length 2.54)
+					(name "PEX_RX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "117"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 22.86 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "119"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 20.32 0)
+					(length 2.54)
+					(name "PEX_RX3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "121"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 17.78 0)
+					(length 2.54)
+					(name "PEX_RX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "123"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "125"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "133"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 7.62 0)
+					(length 2.54)
+					(name "PEX_RX2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "135"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 5.08 0)
+					(length 2.54)
+					(name "PEX_RX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "137"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "139"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 0 0)
+					(length 2.54)
+					(name "PEX_RX1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "141"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -2.54 0)
+					(length 2.54)
+					(name "PEX_RX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "143"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "145"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -7.62 0)
+					(length 2.54)
+					(name "PEX_RX0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "147"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -10.16 0)
+					(length 2.54)
+					(name "PEX_RX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "149"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -12.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "151"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -15.24 0)
+					(length 2.54)
+					(name "PEX_REFCLK#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "153"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -17.78 0)
+					(length 2.54)
+					(name "PEX_REFCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "155"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -20.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "157"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -22.86 0)
+					(length 2.54)
+					(name "JTAG_TDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "159"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -25.4 0)
+					(length 2.54)
+					(name "JTAG_TDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "161"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -27.94 0)
+					(length 2.54)
+					(name "JTAG_TCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "163"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -30.48 0)
+					(length 2.54)
+					(name "JTAG_TMS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "165"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -33.02 0)
+					(length 2.54)
+					(name "JTAG_TRST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "167"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -35.56 0)
+					(length 2.54)
+					(name "LVDS_UCLK#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "169"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -38.1 0)
+					(length 2.54)
+					(name "LVDS_UCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "171"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -40.64 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "173"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -43.18 0)
+					(length 2.54)
+					(name "LVDS_UTX3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "175"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -45.72 0)
+					(length 2.54)
+					(name "LVDS_UTX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "177"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -48.26 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "179"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -50.8 0)
+					(length 2.54)
+					(name "LVDS_UTX2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "181"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -53.34 0)
+					(length 2.54)
+					(name "LVDS_UTX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "183"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -55.88 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "185"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -58.42 0)
+					(length 2.54)
+					(name "LVDS_UTX1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "187"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -60.96 0)
+					(length 2.54)
+					(name "LVDS_UTX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "189"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -63.5 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "191"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -66.04 0)
+					(length 2.54)
+					(name "LVDS_UTX0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "193"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -68.58 0)
+					(length 2.54)
+					(name "LVDS_UTX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "195"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -71.12 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "197"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -73.66 0)
+					(length 2.54)
+					(name "DP_C_L0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "199"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -76.2 0)
+					(length 2.54)
+					(name "DP_C_L0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "201"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -78.74 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "203"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -81.28 0)
+					(length 2.54)
+					(name "DP_C_L1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "205"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -83.82 0)
+					(length 2.54)
+					(name "DP_C_L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "207"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -86.36 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "209"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -88.9 0)
+					(length 2.54)
+					(name "DP_C_L2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "211"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -91.44 0)
+					(length 2.54)
+					(name "DP_C_L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "213"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -93.98 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "215"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -96.52 0)
+					(length 2.54)
+					(name "DP_C_L3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "217"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -99.06 0)
+					(length 2.54)
+					(name "DP_C_L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "219"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -101.6 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "221"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -104.14 0)
+					(length 2.54)
+					(name "DP_C_AUX#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "223"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -106.68 0)
+					(length 2.54)
+					(name "DP_C_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "225"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -109.22 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "227"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -111.76 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "229"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -114.3 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "231"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -116.84 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "233"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -119.38 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "235"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -121.92 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "237"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -124.46 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "239"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -127 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "241"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -129.54 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "243"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -132.08 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "245"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -134.62 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "247"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -137.16 0)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "249"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -139.7 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "251"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -142.24 0)
+					(length 2.54)
+					(name "DP_A_L0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "253"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -144.78 0)
+					(length 2.54)
+					(name "DP_A_L0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "255"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -147.32 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "257"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -149.86 0)
+					(length 2.54)
+					(name "DP_A_L1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "259"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -152.4 0)
+					(length 2.54)
+					(name "DP_A_L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "261"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -154.94 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "263"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -157.48 0)
+					(length 2.54)
+					(name "DP_A_L2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "265"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -160.02 0)
+					(length 2.54)
+					(name "DP_A_L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "267"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -162.56 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "269"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -165.1 0)
+					(length 2.54)
+					(name "DP_A_L3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "271"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -167.64 0)
+					(length 2.54)
+					(name "DP_A_L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "273"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -170.18 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "275"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -172.72 0)
+					(length 2.54)
+					(name "DP_A_AUX#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "277"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -175.26 0)
+					(length 2.54)
+					(name "DP_A_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "279"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -16.51 -177.8 0)
+					(length 2.54)
+					(name "PRSNT_L#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "281"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 182.88 270)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "283"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -182.88 90)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "282"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 177.8 180)
+					(length 2.54)
+					(name "E2_PWR_SRC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 175.26 180)
+					(length 2.54)
+					(name "E4_GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 172.72 180)
+					(length 2.54)
+					(name "PRSNT_R#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 170.18 180)
+					(length 2.54)
+					(name "WAKE#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 167.64 180)
+					(length 2.54)
+					(name "PWR_GOOD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 165.1 180)
+					(length 2.54)
+					(name "PWR_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 162.56 180)
+					(length 2.54)
+					(name "27MHZ_REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 160.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 157.48 180)
+					(length 2.54)
+					(name "LVDS_U_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 154.94 180)
+					(length 2.54)
+					(name "JTAG_TESTEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 152.4 180)
+					(length 2.54)
+					(name "PWR_LEVEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 149.86 180)
+					(length 2.54)
+					(name "TH_OVERT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 147.32 180)
+					(length 2.54)
+					(name "TH_ALERT#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 144.78 180)
+					(length 2.54)
+					(name "TH_PWM"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 142.24 180)
+					(length 2.54)
+					(name "GPIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 139.7 180)
+					(length 2.54)
+					(name "GPIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 137.16 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 134.62 180)
+					(length 2.54)
+					(name "SMB_DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 132.08 180)
+					(length 2.54)
+					(name "SMB_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 129.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 127 180)
+					(length 2.54)
+					(name "OEM0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 124.46 180)
+					(length 2.54)
+					(name "OEM2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 121.92 180)
+					(length 2.54)
+					(name "OEM4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 119.38 180)
+					(length 2.54)
+					(name "OEM6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 116.84 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 114.3 180)
+					(length 2.54)
+					(name "PEX_TX15#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 111.76 180)
+					(length 2.54)
+					(name "PEX_TX15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "50"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 109.22 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "52"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 106.68 180)
+					(length 2.54)
+					(name "PEX_TX14#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "54"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 104.14 180)
+					(length 2.54)
+					(name "PEX_TX14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "56"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 101.6 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "58"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 99.06 180)
+					(length 2.54)
+					(name "PEX_TX13#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "60"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 96.52 180)
+					(length 2.54)
+					(name "PEX_TX13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 93.98 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 91.44 180)
+					(length 2.54)
+					(name "PEX_TX12#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 88.9 180)
+					(length 2.54)
+					(name "PEX_TX12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 86.36 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 83.82 180)
+					(length 2.54)
+					(name "PEX_TX11#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 81.28 180)
+					(length 2.54)
+					(name "PEX_TX11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "74"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 78.74 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "76"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 76.2 180)
+					(length 2.54)
+					(name "PEX_TX10#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "78"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 73.66 180)
+					(length 2.54)
+					(name "PEX_TX10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "80"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 71.12 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "82"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 68.58 180)
+					(length 2.54)
+					(name "PEX_TX9#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "84"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 66.04 180)
+					(length 2.54)
+					(name "PEX_TX9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "86"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 63.5 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "88"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 60.96 180)
+					(length 2.54)
+					(name "PEX_TX8#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "90"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 58.42 180)
+					(length 2.54)
+					(name "PEX_TX8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "92"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 55.88 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "94"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 53.34 180)
+					(length 2.54)
+					(name "PEX_TX7#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "96"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 50.8 180)
+					(length 2.54)
+					(name "PEX_TX7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "98"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 48.26 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "100"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 45.72 180)
+					(length 2.54)
+					(name "PEX_TX6#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "102"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 43.18 180)
+					(length 2.54)
+					(name "PEX_TX6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "104"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 40.64 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "106"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 38.1 180)
+					(length 2.54)
+					(name "PEX_TX5#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "108"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 35.56 180)
+					(length 2.54)
+					(name "PEX_TX5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "110"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 33.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "112"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 30.48 180)
+					(length 2.54)
+					(name "PEX_TX4#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "114"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 27.94 180)
+					(length 2.54)
+					(name "PEX_TX4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "116"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 25.4 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "118"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 22.86 180)
+					(length 2.54)
+					(name "PEX_TX3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "120"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 20.32 180)
+					(length 2.54)
+					(name "PEX_TX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "122"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 17.78 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "124"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 10.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "134"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 7.62 180)
+					(length 2.54)
+					(name "PEX_TX2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "136"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 5.08 180)
+					(length 2.54)
+					(name "PEX_TX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "138"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 2.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "140"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 0 180)
+					(length 2.54)
+					(name "PEX_TX1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "142"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -2.54 180)
+					(length 2.54)
+					(name "PEX_TX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "144"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -5.08 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "146"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -7.62 180)
+					(length 2.54)
+					(name "PEX_TX0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "148"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -10.16 180)
+					(length 2.54)
+					(name "PEX_TX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "150"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -12.7 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "152"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -15.24 180)
+					(length 2.54)
+					(name "PEX_CLK_REQ#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "154"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -17.78 180)
+					(length 2.54)
+					(name "PEX_RST#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "156"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -20.32 180)
+					(length 2.54)
+					(name "VGA_DDC_DAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "158"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -22.86 180)
+					(length 2.54)
+					(name "VGA_DDC_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "160"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -25.4 180)
+					(length 2.54)
+					(name "VGA_VSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "162"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -27.94 180)
+					(length 2.54)
+					(name "VGA_HSYNC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "164"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -30.48 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "166"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -33.02 180)
+					(length 2.54)
+					(name "VGA_RED"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "168"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -35.56 180)
+					(length 2.54)
+					(name "VGA_GREEN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "170"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -38.1 180)
+					(length 2.54)
+					(name "VGA_BLUE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "172"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -40.64 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "174"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -43.18 180)
+					(length 2.54)
+					(name "LVDS_LCLK#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "176"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -45.72 180)
+					(length 2.54)
+					(name "LVDS_LCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "178"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -48.26 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "180"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -50.8 180)
+					(length 2.54)
+					(name "LVDS_LTX3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "182"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -53.34 180)
+					(length 2.54)
+					(name "LVDS_LTX3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "184"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -55.88 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "186"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -58.42 180)
+					(length 2.54)
+					(name "LVDS_LTX2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "188"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -60.96 180)
+					(length 2.54)
+					(name "LVDS_LTX2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "190"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -63.5 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "192"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -66.04 180)
+					(length 2.54)
+					(name "LVDS_LTX1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "194"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -68.58 180)
+					(length 2.54)
+					(name "LVDS_LTX1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "196"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -71.12 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "198"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -73.66 180)
+					(length 2.54)
+					(name "LVDS_LTX0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "200"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -76.2 180)
+					(length 2.54)
+					(name "LVDS_LTX0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "202"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -78.74 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "204"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -81.28 180)
+					(length 2.54)
+					(name "DP_D_L0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "206"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -83.82 180)
+					(length 2.54)
+					(name "DP_D_L0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "208"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -86.36 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "210"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -88.9 180)
+					(length 2.54)
+					(name "DP_D_L1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "212"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -91.44 180)
+					(length 2.54)
+					(name "DP_D_L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "214"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -93.98 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "216"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -96.52 180)
+					(length 2.54)
+					(name "DP_D_L2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "218"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -99.06 180)
+					(length 2.54)
+					(name "DP_D_L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "220"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -101.6 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "222"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -104.14 180)
+					(length 2.54)
+					(name "DP_D_L3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "224"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -106.68 180)
+					(length 2.54)
+					(name "DP_D_L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "226"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -109.22 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "228"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -111.76 180)
+					(length 2.54)
+					(name "DP_D_AUX#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "230"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -114.3 180)
+					(length 2.54)
+					(name "DP_D_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "232"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -116.84 180)
+					(length 2.54)
+					(name "DP_C_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "234"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -119.38 180)
+					(length 2.54)
+					(name "DP_D_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "236"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -121.92 180)
+					(length 2.54)
+					(name "RSVD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "238"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -124.46 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "240"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -127 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "242"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -129.54 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "244"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -132.08 180)
+					(length 2.54)
+					(name "DP_B_L0#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "246"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -134.62 180)
+					(length 2.54)
+					(name "DP_B_L0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "248"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -137.16 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "250"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -139.7 180)
+					(length 2.54)
+					(name "DP_B_L1#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "252"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -142.24 180)
+					(length 2.54)
+					(name "DP_B_L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "254"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -144.78 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "256"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -147.32 180)
+					(length 2.54)
+					(name "DP_B_L2#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "258"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -149.86 180)
+					(length 2.54)
+					(name "DP_B_L2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "260"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -152.4 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "262"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -154.94 180)
+					(length 2.54)
+					(name "DP_B_L3#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "264"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -157.48 180)
+					(length 2.54)
+					(name "DP_B_L3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "266"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -160.02 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "268"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -162.56 180)
+					(length 2.54)
+					(name "DP_B_AUX#"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "270"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -165.1 180)
+					(length 2.54)
+					(name "DP_B_AUX"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "272"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -167.64 180)
+					(length 2.54)
+					(name "DP_B_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "274"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -170.18 180)
+					(length 2.54)
+					(name "DP_A_HPD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "276"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -172.72 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "278"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 16.51 -175.26 180)
+					(length 2.54)
+					(name "3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "280"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 241.3 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efc87bc-8543-4ccc-92de-cbe57378df8b")
+	)
+	(junction
+		(at 241.3 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83a2a6c8-4a3b-4b2e-8aca-15bfeff5e063")
+	)
+	(junction
+		(at 241.3 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5d4628f-64db-448d-b09a-2278c8641ce7")
+	)
+	(wire
+		(pts
+			(xy 241.3 27.94) (xy 241.3 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1642f049-8454-44a8-bc52-eccab0d6bcdb")
+	)
+	(wire
+		(pts
+			(xy 274.32 190.5) (xy 290.83 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35f82b1f-b1db-4506-baff-cb0731f47add")
+	)
+	(wire
+		(pts
+			(xy 241.3 30.48) (xy 241.3 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48750a34-2fd8-451d-bc69-7d3ee09de457")
+	)
+	(wire
+		(pts
+			(xy 274.32 175.26) (xy 290.83 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509bf966-c73c-44ca-8166-67acfb05efcf")
+	)
+	(wire
+		(pts
+			(xy 241.3 33.02) (xy 241.3 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd4861c-34ec-4434-83e1-1a1af3c31aee")
+	)
+	(wire
+		(pts
+			(xy 274.32 200.66) (xy 290.83 200.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e78b252-165c-49f3-9603-20ab54c21dcc")
+	)
+	(wire
+		(pts
+			(xy 274.32 198.12) (xy 290.83 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73761a11-a44d-4f82-bda2-3b092833bb90")
+	)
+	(wire
+		(pts
+			(xy 274.32 193.04) (xy 290.83 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b4f2e34-7021-43d9-a795-26eda0f33e59")
+	)
+	(wire
+		(pts
+			(xy 241.3 25.4) (xy 241.3 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12fe896-433b-468c-a3a0-8ef1769f9860")
+	)
+	(wire
+		(pts
+			(xy 274.32 205.74) (xy 290.83 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d8b6dc-9976-49b0-b181-a25ace68c438")
+	)
+	(wire
+		(pts
+			(xy 274.32 208.28) (xy 290.83 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd941100-7f4d-49dd-9eac-24351024ed44")
+	)
+	(wire
+		(pts
+			(xy 274.32 177.8) (xy 290.83 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea633b46-04db-45ff-a3c4-475de3345ad2")
+	)
+	(wire
+		(pts
+			(xy 241.3 30.48) (xy 238.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd882f0c-6ee5-4303-852a-902c100ae59a")
+	)
+	(label "PCIE_TX0_C_N"
+		(at 276.86 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cbac230-483f-4366-ad1a-487f324495ac")
+	)
+	(label "PCIE_TX3_C_N"
+		(at 276.86 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "393b089b-2d28-4a65-9bc2-9014a813d09f")
+	)
+	(label "PCIE_TX2_C_N"
+		(at 276.86 190.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7168c14e-0301-4cab-860f-db169ce25593")
+	)
+	(label "PCIE_TX1_C_P"
+		(at 276.86 200.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "75b18f5a-3ab8-4943-926c-8d5011258edd")
+	)
+	(label "PCIE_TX3_C_P"
+		(at 276.86 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6d0799c-d106-49ee-ad33-712d300dcf00")
+	)
+	(label "PCIE_TX1_C_N"
+		(at 276.86 198.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c0f57249-dbc3-483a-a437-e99c8eb21033")
+	)
+	(label "PCIE_TX0_C_P"
+		(at 276.86 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6d02e8e-b71a-4ad0-960c-33d556f5e1b2")
+	)
+	(label "PCIE_TX2_C_P"
+		(at 276.86 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c757c026-ce87-42c4-8afb-7f765f16f0c0")
+	)
+	(global_label "PCIE_TX3_P"
+		(shape input)
+		(at 295.91 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "113b22d7-e06a-4368-95d6-a95aac822b70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.7808 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX3_P"
+		(shape input)
+		(at 241.3 177.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "155e9710-5aaf-4f11-b547-085254924938")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1268 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX3_N"
+		(shape input)
+		(at 295.91 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e711bf8-1315-49b9-9399-918115b42b3e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.8413 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MXM_VCC_20V"
+		(shape input)
+		(at 274.32 20.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4685df59-f047-47cf-96dc-ec0b033575e6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 290.4889 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_CLK100M_N"
+		(shape input)
+		(at 241.3 215.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4770ca5d-03a2-4b82-bb3d-f72288073e2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.1073 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX1_P"
+		(shape input)
+		(at 295.91 200.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5a9d8ea6-59e1-44e9-9c2b-176c6684aaae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.7808 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX3_N"
+		(shape input)
+		(at 241.3 180.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fe87f67-43aa-4252-a607-00bc32e14b71")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0663 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MXM_VCC_20V"
+		(shape input)
+		(at 241.3 20.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "630b860a-05f5-4dc3-a881-c37932e105d8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.1311 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX1_N"
+		(shape input)
+		(at 295.91 198.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "96fba9bd-7c63-4b51-bf02-697eefd411d7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.8413 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX2_P"
+		(shape input)
+		(at 241.3 190.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9f42e74b-a6ea-4aef-8071-1837f8b00523")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1268 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX0_P"
+		(shape input)
+		(at 295.91 208.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "abdc3afb-aceb-46ed-8408-1a377805adbd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.7808 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX1_P"
+		(shape input)
+		(at 241.3 198.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b154be0d-3869-49e9-9a23-3c00afefa13f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1268 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX0_N"
+		(shape input)
+		(at 295.91 205.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b2e3635b-0420-4e2a-8c02-e8936854e5cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.8413 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_CLK100M_P"
+		(shape input)
+		(at 241.3 213.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b6d917f1-5d93-4d17-8019-da2466bec6a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 222.1678 213.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX1_N"
+		(shape input)
+		(at 241.3 200.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b813be7c-dc05-4c66-aadc-fc19dcc0e55d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0663 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX2_N"
+		(shape input)
+		(at 241.3 193.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bdb340ee-c55f-46bf-a7fc-b89958cb961c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0663 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX0_P"
+		(shape input)
+		(at 241.3 205.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c4499b03-66d7-4e0c-abd0-febe2444451e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.1268 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_RX0_N"
+		(shape input)
+		(at 241.3 208.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ccde1768-9e83-43b2-99b0-62d26f23814c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.0663 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX2_P"
+		(shape input)
+		(at 295.91 193.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7d6b570-2ed8-4872-8a7f-6709186e885b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.7808 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PCIE_TX2_N"
+		(shape input)
+		(at 295.91 190.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "dd49aaa4-f0f4-43f8-b039-eb71e8d98c6f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 309.8413 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 175.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6eb3cde4-69c1-4e55-ad69-b1b7806b2b6f")
+		(property "Reference" "C6"
+			(at 296.164 172.212 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.926 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4df8cd7-a1fe-4574-8708-d899a061ac8c")
+		)
+		(pin "2"
+			(uuid "3a72b356-5f88-4780-90d1-d9916334615d")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 208.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f915c1d-230a-4c72-8130-024e2209150d")
+		(property "Reference" "C23"
+			(at 296.418 211.582 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.672 209.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d0212f-8457-456f-ada1-df1dde88e443")
+		)
+		(pin "2"
+			(uuid "79a10aa9-5b96-4c6b-b14b-f3dc23fe72f1")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 193.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bda5dba-8e40-4e7d-9486-4348ec39d8dd")
+		(property "Reference" "C19"
+			(at 296.418 196.342 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.672 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "763603f6-d513-4cbf-a96c-e8d4baca1304")
+		)
+		(pin "2"
+			(uuid "8c224daf-78f7-4d08-a436-3a7c1f9a4007")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 205.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5456a84-f686-4624-8914-20081ad95121")
+		(property "Reference" "C22"
+			(at 296.164 202.692 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.926 204.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a9145f6-797f-4e6c-8f88-159e63b89328")
+		)
+		(pin "2"
+			(uuid "3cc3b040-2335-4120-9fdc-4e63194efbee")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 177.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bab46ebd-335c-446e-8339-905d43a41d91")
+		(property "Reference" "C17"
+			(at 296.418 181.102 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.672 179.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0fc4edc1-0624-44eb-8672-16936907f041")
+		)
+		(pin "2"
+			(uuid "daf201b5-0208-4d1c-b918-50ba5eb72070")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 200.66 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbfadab4-4f29-4d8a-94a6-a4be783119fa")
+		(property "Reference" "C21"
+			(at 296.418 203.962 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.672 202.184 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16d4fa19-a97b-4d57-a0ca-56d999e384a2")
+		)
+		(pin "2"
+			(uuid "e75567c5-6795-4dac-b1b6-e08b2c5a04a5")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 190.5 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ca8097b9-9f54-43a9-879d-b2b19eaa41d4")
+		(property "Reference" "C18"
+			(at 296.164 187.452 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.926 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c5ec83-c062-4bf7-ac51-30e048ac0cf0")
+		)
+		(pin "2"
+			(uuid "4ff15820-588c-42d6-9a57-a4ab18f67320")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mxm:AS0B826-S78B-7H")
+		(at 257.81 198.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdfc3e9f-96b5-4fa0-918e-2427650f3dd4")
+		(property "Reference" "MXM1"
+			(at 259.9533 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS0B826-S78B-7H"
+			(at 259.9533 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "FOXCONN-AS0B826-S78B-7H:CONN-SMD_AS0B826-S78B-7H"
+			(at 257.81 388.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 257.81 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOXCONN(富士康)"
+			(at 257.81 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C426232"
+			(at 257.81 393.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC Part" "Extended Part"
+			(at 257.81 396.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "44"
+			(uuid "f07915a3-6844-493c-9ad9-ea874167799d")
+		)
+		(pin "115"
+			(uuid "634be9c9-7cc8-4281-8027-4ac8bca4ff77")
+		)
+		(pin "151"
+			(uuid "fcf5075e-76a0-435d-a3ec-0ea986411da1")
+		)
+		(pin "81"
+			(uuid "6381813a-ff26-40e5-ae60-4aa293c59662")
+		)
+		(pin "20"
+			(uuid "5753dfe8-7b16-4c55-bc40-3d05a8223cee")
+		)
+		(pin "209"
+			(uuid "bde7372f-67d8-4b2a-ba5c-ac3c4b75518a")
+		)
+		(pin "61"
+			(uuid "7c836dd0-13d1-4396-ab4d-cf4e3caeefb6")
+		)
+		(pin "197"
+			(uuid "e4e8ede2-aed8-4200-9f9f-26c723a65ec7")
+		)
+		(pin "53"
+			(uuid "2719c7a3-f251-453c-a17c-962c54952594")
+		)
+		(pin "152"
+			(uuid "25470b69-7e71-438b-a3bb-1fe69ef1cc98")
+		)
+		(pin "25"
+			(uuid "a2a78b65-5766-4844-8c04-599757af10f5")
+		)
+		(pin "195"
+			(uuid "b5839f9e-020a-46b0-9a8a-ba30758dafbb")
+		)
+		(pin "281"
+			(uuid "205ac0d6-ba19-4b71-b808-bc23e0e8665a")
+		)
+		(pin "207"
+			(uuid "f28005b6-672d-4211-9bae-053747cad85b")
+		)
+		(pin "231"
+			(uuid "e4d1618d-87c4-44cc-9c67-e12f4c13ec95")
+		)
+		(pin "29"
+			(uuid "187a0d24-dd5c-4447-b8f1-1b1a73790f2d")
+		)
+		(pin "49"
+			(uuid "747f53e0-daf6-4f4e-b9ce-a1a137937693")
+		)
+		(pin "259"
+			(uuid "d854b51d-13e0-474f-94e7-4ae8dcb93869")
+		)
+		(pin "247"
+			(uuid "f7fed5ab-746a-4d36-980f-cc2d4933e174")
+		)
+		(pin "52"
+			(uuid "24ecd37f-5503-48c0-8eec-c4a8f4a07f3c")
+		)
+		(pin "66"
+			(uuid "fb8b2ab3-1b5b-4e2c-842c-beb8d51a1848")
+		)
+		(pin "40"
+			(uuid "5f2199dd-c51f-4953-a6ba-d3069e8670a4")
+		)
+		(pin "273"
+			(uuid "e02b63f7-6f1d-46ce-bd64-1c7dfba1143a")
+		)
+		(pin "277"
+			(uuid "5ded0086-51c4-4cba-9e72-8d754cecbfb4")
+		)
+		(pin "10"
+			(uuid "31e24311-1afe-468c-936d-c4ecf1c3d3bb")
+		)
+		(pin "169"
+			(uuid "b36eb477-a753-497b-a818-095a629bf923")
+		)
+		(pin "173"
+			(uuid "e0a1ba68-3056-4eba-adec-d4f5c89f42d6")
+		)
+		(pin "68"
+			(uuid "b40bb56d-149b-46b1-a503-8ada12cf57ff")
+		)
+		(pin "279"
+			(uuid "9bb36c9b-4a1f-4638-b5c8-5ea0dfa99a9f")
+		)
+		(pin "93"
+			(uuid "1b2cb532-ed27-443d-bd67-5a160ce25dfa")
+		)
+		(pin "283"
+			(uuid "f393f5d8-42a1-4d2d-8e7d-afdf9fa781e7")
+		)
+		(pin "4"
+			(uuid "d4cc93d8-9aa0-44ca-99dc-8e8ca1b1df8f")
+		)
+		(pin "137"
+			(uuid "816b5e39-ee77-4912-a6e2-abdda1177a21")
+		)
+		(pin "64"
+			(uuid "a3a8b67a-d3f6-4120-a362-854296a08f0e")
+		)
+		(pin "227"
+			(uuid "3935bb8f-2d5c-4435-91e6-adc684c20340")
+		)
+		(pin "229"
+			(uuid "981f51fd-2723-43f2-9cb6-ad7257cad292")
+		)
+		(pin "36"
+			(uuid "648385eb-e404-4ec5-a38e-edfeb81b794a")
+		)
+		(pin "224"
+			(uuid "90b11502-1f3f-495f-8ff9-64f78c21ee4f")
+		)
+		(pin "163"
+			(uuid "9fb83f6f-69cf-4f62-85d3-055da6c8bb0b")
+		)
+		(pin "245"
+			(uuid "b941aafb-418a-469a-9b16-628ab1156463")
+		)
+		(pin "265"
+			(uuid "8d56f9ef-5987-48df-931a-0d563711dcd4")
+		)
+		(pin "175"
+			(uuid "4a372334-7ecf-470c-95ea-62037e99e2ba")
+		)
+		(pin "E4"
+			(uuid "f08adbfb-f57e-4176-ab4a-e5cad16859fc")
+		)
+		(pin "210"
+			(uuid "480830f9-0456-470b-b0cb-6da51918a056")
+		)
+		(pin "233"
+			(uuid "19e3be0f-63e8-4ca4-b9fb-8310b91c0d5c")
+		)
+		(pin "57"
+			(uuid "bc81aa90-7b2b-4a3b-94b5-1d242a56c40c")
+		)
+		(pin "171"
+			(uuid "893912d0-561a-46ca-abd6-0758f5679360")
+		)
+		(pin "24"
+			(uuid "d506a9ee-9d14-42ae-a671-8dfc34f30329")
+		)
+		(pin "83"
+			(uuid "7190bc73-cafe-478a-9b95-3113425c6fe3")
+		)
+		(pin "165"
+			(uuid "308a9c30-6d3a-4e06-b5c2-3a298953184f")
+		)
+		(pin "108"
+			(uuid "f037f043-2b92-4b59-a2eb-9ee26d3fc53e")
+		)
+		(pin "23"
+			(uuid "85aae087-7b1c-47b1-9131-5151657c9f6c")
+		)
+		(pin "282"
+			(uuid "62672fe7-8957-4a5b-8e80-c1b630734033")
+		)
+		(pin "258"
+			(uuid "31814abf-4792-41c3-84d9-b81ea5c8a189")
+		)
+		(pin "254"
+			(uuid "ba2bc9af-15e3-4ce8-9521-588602220aca")
+		)
+		(pin "262"
+			(uuid "6c9089e4-5280-42d7-84e8-6c1f8da6c5f6")
+		)
+		(pin "164"
+			(uuid "939bb2b3-c626-4170-b30a-92c150537550")
+		)
+		(pin "94"
+			(uuid "dbe7b704-04f5-45d9-9a73-1be8b74aa84d")
+		)
+		(pin "90"
+			(uuid "151a0717-5726-4f8f-aee5-e67e73f66fa5")
+		)
+		(pin "170"
+			(uuid "7988e239-5e7b-4ce7-81c7-a381b37f5ea1")
+		)
+		(pin "96"
+			(uuid "4ef2703e-aa55-4bde-9fb1-c17d80ba2369")
+		)
+		(pin "174"
+			(uuid "b2078681-97d7-46a5-a8a8-460585ac6e54")
+		)
+		(pin "78"
+			(uuid "6ed43b7b-afc5-45bc-933d-937a2d6a0787")
+		)
+		(pin "74"
+			(uuid "aed35fd7-c0de-46a9-aeac-4e5179595916")
+		)
+		(pin "73"
+			(uuid "e2f3dcef-4dc6-4df4-a598-01539138f101")
+		)
+		(pin "71"
+			(uuid "dbd7aadb-06ae-42d5-9345-076fb8bee886")
+		)
+		(pin "67"
+			(uuid "fd084bef-6a2a-4bc3-af15-3d37c8b8d265")
+		)
+		(pin "234"
+			(uuid "6b8d22fb-1596-46de-8ae4-51ad4676c69b")
+		)
+		(pin "228"
+			(uuid "f28c87b0-f64f-4617-b67e-a6223935efaf")
+		)
+		(pin "241"
+			(uuid "179fa244-f7b6-48da-81d6-775187a356e0")
+		)
+		(pin "202"
+			(uuid "57514d52-4caa-4182-9b09-6a3d23d1c4bd")
+		)
+		(pin "119"
+			(uuid "a8326ffe-ff77-46e0-bd9e-514c931e82c6")
+		)
+		(pin "113"
+			(uuid "1a9a7075-397d-4e55-a4f1-ad1748611935")
+		)
+		(pin "43"
+			(uuid "b62af754-5b86-4c8c-bf5e-b94b441448d1")
+		)
+		(pin "59"
+			(uuid "98de9171-75d4-4f4b-928e-a2b9863ed67c")
+		)
+		(pin "121"
+			(uuid "9822dbab-8e99-464e-a02d-bf70c86ecd6a")
+		)
+		(pin "45"
+			(uuid "87051366-5cc5-42c8-b117-2a9be50114e8")
+		)
+		(pin "85"
+			(uuid "67ad2a35-d278-49ed-a2f0-8556ea2dd7c6")
+		)
+		(pin "102"
+			(uuid "35d609f8-f1f8-4ff5-952a-8f5114d9d9c5")
+		)
+		(pin "22"
+			(uuid "1545b8d1-87b8-45f2-9a2c-0d321cea7218")
+		)
+		(pin "143"
+			(uuid "a336d58e-6075-4d6c-ac30-c0d1ae1303c9")
+		)
+		(pin "27"
+			(uuid "715658d6-6c10-4ac6-93aa-0541f27637c8")
+		)
+		(pin "33"
+			(uuid "8ed96b3a-e8ee-4bfa-af1c-e7e94cc0ac48")
+		)
+		(pin "278"
+			(uuid "865dc756-4824-4e9a-b3be-7d86bcbb6bd1")
+		)
+		(pin "13"
+			(uuid "1ac6cecf-0ab7-49f9-ad38-a66a03ac245e")
+		)
+		(pin "268"
+			(uuid "476f9bc0-306d-46dd-a985-713e7630bab4")
+		)
+		(pin "39"
+			(uuid "d8ab4b23-9882-45a7-bc42-a12e4e0c1f05")
+		)
+		(pin "145"
+			(uuid "b49625d0-a46c-463b-b79c-ff603500899c")
+		)
+		(pin "201"
+			(uuid "fc0b2fde-8a8a-40a9-9e49-4d825d87fec2")
+		)
+		(pin "157"
+			(uuid "8ce72079-578f-473b-984a-e47131cbc803")
+		)
+		(pin "2"
+			(uuid "f891c400-c502-42f7-871d-83c8d8ff3416")
+		)
+		(pin "55"
+			(uuid "9dc63f1c-8f8c-46da-b688-c1e565cf1a78")
+		)
+		(pin "237"
+			(uuid "15622491-63f9-483f-974b-c656a4c1577f")
+		)
+		(pin "168"
+			(uuid "c0610ba2-5ddf-4e00-8a82-82a2632ce533")
+		)
+		(pin "255"
+			(uuid "fcdc569e-40c7-4c68-9110-4e4f2c5ae871")
+		)
+		(pin "215"
+			(uuid "7b115166-0ce0-4f18-b112-e9beac33c4e9")
+		)
+		(pin "187"
+			(uuid "eb046b3d-7179-46e9-8831-99f28cf4c034")
+		)
+		(pin "3"
+			(uuid "47b9bc58-195a-4b80-b27d-d3746e2c0915")
+		)
+		(pin "7"
+			(uuid "c3f532d1-c5d8-4a8e-b864-aa042880e72c")
+		)
+		(pin "196"
+			(uuid "61e0e39f-8495-4b95-a668-0fc6fee4e112")
+		)
+		(pin "246"
+			(uuid "36505e8f-fcdc-4491-9e9c-0bd42cb8254a")
+		)
+		(pin "280"
+			(uuid "33dd366b-79c1-4dee-b2a1-889eb587faff")
+		)
+		(pin "30"
+			(uuid "758b6129-82ed-4e32-b693-dc041938aad7")
+		)
+		(pin "82"
+			(uuid "7ed1ea1e-f3d3-423d-8aff-d07bd83b64f7")
+		)
+		(pin "182"
+			(uuid "d7b73fc2-e90d-4190-95c9-3355be4c08b1")
+		)
+		(pin "172"
+			(uuid "7e900b51-a59d-423f-89d8-1c770ffcd748")
+		)
+		(pin "114"
+			(uuid "c49c2387-0003-4983-a9cf-79e202055dbf")
+		)
+		(pin "275"
+			(uuid "23972955-b4bb-467d-91cd-30f6577fbcc2")
+		)
+		(pin "106"
+			(uuid "cff319b5-64f0-45c3-a1a5-240beadc764a")
+		)
+		(pin "260"
+			(uuid "aa1daf81-b146-427c-962b-8ceb55acb8a9")
+		)
+		(pin "178"
+			(uuid "ffeb2bb6-8f6a-4eae-bf28-fa97f5ed1a71")
+		)
+		(pin "41"
+			(uuid "4abab037-b559-4329-bf42-38ae0ef59177")
+		)
+		(pin "166"
+			(uuid "493fc26e-d82f-448b-980f-bacb5c266351")
+		)
+		(pin "222"
+			(uuid "504a8793-bbff-44cf-a3b1-258634666ed6")
+		)
+		(pin "150"
+			(uuid "a9181c7a-407c-4eda-bcf7-98f184be35b5")
+		)
+		(pin "250"
+			(uuid "a2e48cab-f6e2-4469-a68c-53620153d1ee")
+		)
+		(pin "212"
+			(uuid "d88cbf84-ae31-4e39-8c88-9c483e679c9b")
+		)
+		(pin "261"
+			(uuid "9804fdb2-2100-4392-b26e-bddbef8664de")
+		)
+		(pin "220"
+			(uuid "9c8708f4-0ab8-4954-94a4-264c2aced3ae")
+		)
+		(pin "274"
+			(uuid "1da3368a-b588-4bbc-b331-e8a7d687902e")
+		)
+		(pin "232"
+			(uuid "076fad14-f165-45c5-80ee-3b6776eb7b53")
+		)
+		(pin "219"
+			(uuid "9b23f48d-9ef8-414d-be9d-fc1cc60005d7")
+		)
+		(pin "100"
+			(uuid "571a36a9-dbb9-4e1f-b9f4-544e75d9d798")
+		)
+		(pin "211"
+			(uuid "e0ae7532-252c-4719-9949-8b48604037a0")
+		)
+		(pin "42"
+			(uuid "98b08fa1-dc87-493b-a157-0f954ba73dfc")
+		)
+		(pin "257"
+			(uuid "8e635535-6c1d-472f-9816-89e6a878ab5f")
+		)
+		(pin "107"
+			(uuid "1722996b-df07-4b58-9b5b-29d963456d7a")
+		)
+		(pin "47"
+			(uuid "ea6f5938-e0d0-40be-bae5-f2f6644a5643")
+		)
+		(pin "226"
+			(uuid "48ef2508-3143-4150-ba96-409c7010198d")
+		)
+		(pin "116"
+			(uuid "497eb2d8-bfef-4d79-8d8d-78d236c0193c")
+		)
+		(pin "214"
+			(uuid "f5e6c627-3382-4671-a38f-532ac3b779b6")
+		)
+		(pin "37"
+			(uuid "a86f5827-ec20-4bf4-a623-901929b86414")
+		)
+		(pin "89"
+			(uuid "0a7efe32-4d9c-4087-8c25-20a02c2a80c9")
+		)
+		(pin "148"
+			(uuid "f738da8f-ddd7-476f-bfa7-e1ecfd2ee480")
+		)
+		(pin "158"
+			(uuid "78f66ca4-abd7-48d9-b005-15576749ffb7")
+		)
+		(pin "125"
+			(uuid "77c106c1-3091-4bc6-9b60-5de01f168d72")
+		)
+		(pin "16"
+			(uuid "68a45d52-3bde-4df6-ad0a-5083a0fbc091")
+		)
+		(pin "18"
+			(uuid "4e2f5eeb-1219-494f-b3fd-bb7765c6bd0f")
+		)
+		(pin "183"
+			(uuid "6963f30e-69ff-4a24-bdc2-7dd24e026ddb")
+		)
+		(pin "188"
+			(uuid "5810f647-ecbd-41d5-8514-fcec63a4712d")
+		)
+		(pin "161"
+			(uuid "2d1eb71c-841b-4666-bb51-59efa8e9136c")
+		)
+		(pin "223"
+			(uuid "b0e5d277-4f3d-4618-a0c2-5b3585e53d78")
+		)
+		(pin "35"
+			(uuid "0e65d851-d83f-4747-95c4-2a9dace3cad2")
+		)
+		(pin "194"
+			(uuid "d6dcb81b-1ce4-462a-94b2-c3411029593a")
+		)
+		(pin "147"
+			(uuid "1118cf76-ed1f-461b-8ba8-f420bfe94446")
+		)
+		(pin "86"
+			(uuid "c203b9ab-1231-4f25-825b-69c4bb74a35f")
+		)
+		(pin "26"
+			(uuid "febcc6db-0afa-4ad0-a636-10e3e3a2c338")
+		)
+		(pin "31"
+			(uuid "6e64a5b4-7b1d-455a-9fa7-dcdac3195fc8")
+		)
+		(pin "97"
+			(uuid "d8aebb7d-a7b5-44ce-8bdb-58b044b42377")
+		)
+		(pin "213"
+			(uuid "1e5934ed-1b98-466a-acee-1efaf6a9f163")
+		)
+		(pin "E2"
+			(uuid "3445ab73-e944-4b31-ad59-2ea49804bda6")
+		)
+		(pin "199"
+			(uuid "b0dedcbe-deb0-4bb9-a063-c3fe981fa635")
+		)
+		(pin "12"
+			(uuid "e0476fb7-6c2b-4a37-aba4-3f6626eda02e")
+		)
+		(pin "6"
+			(uuid "b89495df-3609-444e-9ef8-87ff30fc2627")
+		)
+		(pin "101"
+			(uuid "3fef6307-0777-41a8-b99c-b381718c17ca")
+		)
+		(pin "272"
+			(uuid "9f6f68d5-7f4f-4635-a7bd-7d5df4d6fb07")
+		)
+		(pin "139"
+			(uuid "e57089e4-a7c2-4f28-8d43-1099aa703b3b")
+		)
+		(pin "72"
+			(uuid "0179f4b3-412c-4578-a2ed-bffb48d4072a")
+		)
+		(pin "46"
+			(uuid "54acab43-8f04-4871-9694-d177bafefcf7")
+		)
+		(pin "8"
+			(uuid "4844aec8-e68c-469f-83e1-896af10817ca")
+		)
+		(pin "58"
+			(uuid "e06f2b9e-89c4-4df0-985a-29e6c88685fb")
+		)
+		(pin "192"
+			(uuid "1310ff66-2575-46c6-a876-caf7de25440e")
+		)
+		(pin "76"
+			(uuid "74b16413-9948-4ddb-8db8-f60eef4f30bc")
+		)
+		(pin "217"
+			(uuid "677fe241-11b1-4593-b620-67f14f5637e5")
+		)
+		(pin "191"
+			(uuid "51046f78-6750-45fd-9e5a-04b66f07573a")
+		)
+		(pin "248"
+			(uuid "4cc6b75b-f88e-4d53-8d0a-96ce1ffbf8a6")
+		)
+		(pin "167"
+			(uuid "d80ccf7e-2de6-440d-8f35-d32dde1c8830")
+		)
+		(pin "216"
+			(uuid "7b64006e-d940-4a0d-969b-8f2e7d0769d9")
+		)
+		(pin "155"
+			(uuid "c49e3ffb-1a9b-4448-b976-9b23ef8abe11")
+		)
+		(pin "123"
+			(uuid "9f53b6af-cea4-4472-ba5a-992961b83a0a")
+		)
+		(pin "135"
+			(uuid "8435c9ff-c9e5-41bc-8744-cd851a35c1ec")
+		)
+		(pin "103"
+			(uuid "6a3b1f58-1f81-4f67-9a39-2e7e50e2a20b")
+		)
+		(pin "184"
+			(uuid "73717a28-7f92-4012-ac5b-b2433952506d")
+		)
+		(pin "56"
+			(uuid "d78db4e9-ba92-4a9d-a9aa-c32d5110f81e")
+		)
+		(pin "38"
+			(uuid "86e8f9ac-c865-435d-a2ed-958bad196dbb")
+		)
+		(pin "32"
+			(uuid "34f5acc1-0afe-411c-a24f-2695e14a8087")
+		)
+		(pin "230"
+			(uuid "b26e33d1-c9d6-4089-8b63-65a94118e201")
+		)
+		(pin "177"
+			(uuid "4793b28e-2ab4-43ff-8109-865264745e9b")
+		)
+		(pin "5"
+			(uuid "97e2f0ba-79cb-4443-8cce-f791d0a1b6de")
+		)
+		(pin "98"
+			(uuid "22ff7707-77e0-42a1-8593-f78510677438")
+		)
+		(pin "271"
+			(uuid "3cc8e1c5-48be-4e0d-9c21-ea2e56ce08ea")
+		)
+		(pin "54"
+			(uuid "8d515f39-49f4-49e4-bf17-d48eca4fdb35")
+		)
+		(pin "235"
+			(uuid "48381269-4fd6-4002-a536-2c6286b46f41")
+		)
+		(pin "11"
+			(uuid "16c54b99-71d8-4a2e-b06d-8828818350b6")
+		)
+		(pin "69"
+			(uuid "1f677cf5-b041-4ad1-a603-2dca76a995b2")
+		)
+		(pin "198"
+			(uuid "4b7e5954-d443-4a38-a3e1-61e324cf9990")
+		)
+		(pin "244"
+			(uuid "5014a163-48f2-438b-a60c-a6c57e0c0988")
+		)
+		(pin "109"
+			(uuid "0d0c06af-bc48-4daf-84a7-ecd09102128e")
+		)
+		(pin "80"
+			(uuid "5dc676cc-f973-4360-82d4-36ec63284401")
+		)
+		(pin "204"
+			(uuid "ddb131ea-8b7e-4dbc-a446-eddf12b1e2d2")
+		)
+		(pin "146"
+			(uuid "e04506a0-ca17-43f3-b105-fb58fa68fd5b")
+		)
+		(pin "218"
+			(uuid "4303e682-813e-4b8e-ba11-4c69e9b45034")
+		)
+		(pin "65"
+			(uuid "7ac5b4df-6f36-489f-93cf-f22243e9fdc4")
+		)
+		(pin "263"
+			(uuid "538ba8f6-f974-4f27-93e2-e2676abf6dbd")
+		)
+		(pin "104"
+			(uuid "97959304-5fdc-47ea-b4df-4dea860be880")
+		)
+		(pin "221"
+			(uuid "efb793bf-a611-43a3-945e-d5d1e134d3a9")
+		)
+		(pin "193"
+			(uuid "93f440a6-c3f0-44f3-9471-8866165ffb7b")
+		)
+		(pin "117"
+			(uuid "6d258093-37df-4490-a1cc-bb539ccc49e8")
+		)
+		(pin "154"
+			(uuid "d8388d6c-8253-47d0-9de4-f7c0a8724967")
+		)
+		(pin "189"
+			(uuid "db74d6e2-d7c4-432d-8544-2b32c75a3561")
+		)
+		(pin "200"
+			(uuid "21c71044-4337-4c79-93c7-212796e8d83c")
+		)
+		(pin "50"
+			(uuid "94924411-bc77-4cf4-b99f-6aa480898cc9")
+		)
+		(pin "60"
+			(uuid "2cce05ae-6b51-4dd8-8060-cbf4437bcd48")
+		)
+		(pin "14"
+			(uuid "8c7d9f40-7577-4269-baf1-6aa5832d2c1c")
+		)
+		(pin "34"
+			(uuid "26d5cd04-01fb-4e49-a36e-cb9bb124179a")
+		)
+		(pin "180"
+			(uuid "c237f217-e87d-44dc-bc40-79b54ac65a8f")
+		)
+		(pin "162"
+			(uuid "ce8054b5-1bf3-482e-8f13-ae3cd798fbb2")
+		)
+		(pin "92"
+			(uuid "48263688-0372-4852-9ce6-2aa341be6ef4")
+		)
+		(pin "269"
+			(uuid "863ef090-1c1f-4bb7-a4a8-b3a3ca2e002d")
+		)
+		(pin "252"
+			(uuid "f20e48a6-d9e3-4127-9ec2-fc5449cde6ad")
+		)
+		(pin "181"
+			(uuid "0dda1bf7-a0fe-4b26-b322-0ca8fdb5d32d")
+		)
+		(pin "276"
+			(uuid "1a5d19ed-6e90-423b-bc0e-5ac287add311")
+		)
+		(pin "186"
+			(uuid "6f23fe73-299f-4b34-9c04-c00715748099")
+		)
+		(pin "176"
+			(uuid "01a58284-2997-4acd-90c0-4f49249ec8c4")
+		)
+		(pin "156"
+			(uuid "69059132-8061-4cbe-9d7e-021f04dcea0f")
+		)
+		(pin "77"
+			(uuid "02d710ea-3227-4014-8b97-f21852be475c")
+		)
+		(pin "75"
+			(uuid "7ae35984-3cee-4db8-b93a-81d500350ce9")
+		)
+		(pin "256"
+			(uuid "1c682b08-0fb5-43af-9155-fa0444c3e01e")
+		)
+		(pin "159"
+			(uuid "8f571d7e-3899-467a-a0c2-64e24a446ffa")
+		)
+		(pin "62"
+			(uuid "1f25e685-192c-498d-8ddc-672d31d8b48c")
+		)
+		(pin "236"
+			(uuid "c5fd8661-88e4-445f-8df2-e461bbe681d5")
+		)
+		(pin "190"
+			(uuid "70bff044-cc21-4ee3-ab04-41080404cb93")
+		)
+		(pin "206"
+			(uuid "23370221-b450-45a1-9ec0-84bd9d0c9e3b")
+		)
+		(pin "99"
+			(uuid "6c3d44e6-5545-43b3-aee4-0110339387a1")
+		)
+		(pin "153"
+			(uuid "3c9db53c-d0b0-493b-b175-fbb8b2cd991d")
+		)
+		(pin "63"
+			(uuid "00359b54-d8ae-4511-b57d-d43ffea5b939")
+		)
+		(pin "205"
+			(uuid "6e6f06a9-b3b6-4b83-afe4-a6d44917bf88")
+		)
+		(pin "70"
+			(uuid "606a6e8e-3b35-48af-a47d-5e2213d351e4")
+		)
+		(pin "48"
+			(uuid "b79eea8b-9c3d-4e57-8ebf-e2f512aeeb29")
+		)
+		(pin "28"
+			(uuid "9b844b77-72d6-483f-a680-26273497e6a6")
+		)
+		(pin "E3"
+			(uuid "324534e8-7bc2-4efc-8592-e8337a57d725")
+		)
+		(pin "E1"
+			(uuid "5cfb01d5-aa37-4bc7-9a93-478ac1767f75")
+		)
+		(pin "95"
+			(uuid "64367fe6-c115-4fed-9f3e-b8c3c1f9803c")
+		)
+		(pin "179"
+			(uuid "68376d0c-6cc3-4fa3-af46-c1c14473d169")
+		)
+		(pin "111"
+			(uuid "4ddf8f1e-565b-4144-b091-c8bc605aff1d")
+		)
+		(pin "264"
+			(uuid "0ff48dd1-c8b7-42b2-b0c6-359b4ef7cf4f")
+		)
+		(pin "87"
+			(uuid "d56f2784-1e60-4500-9560-9bd5365d2364")
+		)
+		(pin "160"
+			(uuid "2e2854a0-80d5-4e5a-905a-ee460b0a48b8")
+		)
+		(pin "88"
+			(uuid "acde76ec-b742-4d97-98db-7b709461297c")
+		)
+		(pin "112"
+			(uuid "fe31d4bf-568e-49da-80d1-9e7a1328abf2")
+		)
+		(pin "141"
+			(uuid "92831a42-868f-4d76-968b-18621eb6bbee")
+		)
+		(pin "118"
+			(uuid "897caf60-f1dc-4a94-8204-d138311f83c0")
+		)
+		(pin "1"
+			(uuid "d5f7e74b-963e-4edb-a530-8cf54be4b6d3")
+		)
+		(pin "79"
+			(uuid "79d8bd12-f93c-4e59-9f09-871004b5cec4")
+		)
+		(pin "105"
+			(uuid "6e20d1bf-874d-49ae-8910-b5485bfde517")
+		)
+		(pin "133"
+			(uuid "66e4719b-2ef8-4451-af33-f2bb0d49c43e")
+		)
+		(pin "15"
+			(uuid "4f258e2c-938b-4f10-b7ee-df8db3104ab1")
+		)
+		(pin "21"
+			(uuid "9b81fcad-3c44-456e-9eb3-8f23ce2069d4")
+		)
+		(pin "19"
+			(uuid "f649079f-87e1-43a4-bca0-c27f00c0fc4f")
+		)
+		(pin "149"
+			(uuid "3f124df2-827e-46c7-af78-7b53e96fb626")
+		)
+		(pin "17"
+			(uuid "2ebb2004-8583-4d67-857f-5b337006d03d")
+		)
+		(pin "208"
+			(uuid "a01b6caa-941f-4bd1-9b7c-251b31518802")
+		)
+		(pin "243"
+			(uuid "f97565a0-cc4e-4dba-88f6-2bb39623a391")
+		)
+		(pin "251"
+			(uuid "fe4e176c-3525-47e6-8f41-e3233a17c0de")
+		)
+		(pin "249"
+			(uuid "2dd76ba5-0a78-45cf-89ae-1bb2a15a7f2e")
+		)
+		(pin "142"
+			(uuid "b7b55fdf-cccb-4cbf-a56b-d7d082f3562c")
+		)
+		(pin "140"
+			(uuid "afb5e338-8d2f-468e-bd73-b3e0e724d1e7")
+		)
+		(pin "138"
+			(uuid "0321cf62-414e-4e8a-9c64-40e9a213c5b2")
+		)
+		(pin "144"
+			(uuid "d4564606-ecf3-4cb3-990c-28e3b381f1f9")
+		)
+		(pin "136"
+			(uuid "24244697-f67d-4ef4-a953-67664cc92ccd")
+		)
+		(pin "134"
+			(uuid "4aadbc03-bb24-4ddb-bbfd-123df230e5af")
+		)
+		(pin "242"
+			(uuid "3c8fbb4c-396c-4c5e-8bc4-8af7e6485fc0")
+		)
+		(pin "124"
+			(uuid "b5b14478-73e1-4868-8250-d3d4bf9a676c")
+		)
+		(pin "238"
+			(uuid "cf6c6528-c273-434a-b5c0-83bc07153fac")
+		)
+		(pin "120"
+			(uuid "d86818d8-a6f7-4088-a305-2d27d717125a")
+		)
+		(pin "110"
+			(uuid "aa51a03f-a633-470d-919f-3f00083b6f5d")
+		)
+		(pin "266"
+			(uuid "fab2e7c5-49be-43bc-86cd-bf7d502a05aa")
+		)
+		(pin "122"
+			(uuid "b8ce6d75-8d9f-41ea-aa57-59947b944ba5")
+		)
+		(pin "203"
+			(uuid "c7c39fda-2db6-4778-a5c2-7499c4531408")
+		)
+		(pin "270"
+			(uuid "aafab358-d529-4526-9fd9-d1fac581cd3d")
+		)
+		(pin "185"
+			(uuid "5b498017-9fc5-4519-a40e-5ae0f2507d39")
+		)
+		(pin "240"
+			(uuid "ed061cd1-99a6-47a4-897e-b561f39a1fa4")
+		)
+		(pin "91"
+			(uuid "4c62d92f-1136-499d-82f2-b5bd0ea4e33b")
+		)
+		(pin "84"
+			(uuid "2bb2d7c5-e3af-40e7-80dc-c40fc73978ac")
+		)
+		(pin "225"
+			(uuid "810ae93b-186e-44d2-a05e-4c36089405b6")
+		)
+		(pin "9"
+			(uuid "133ea69e-7335-4ddb-94f2-d61e344734a8")
+		)
+		(pin "253"
+			(uuid "eba3eabf-11a9-4c85-8681-1ce156e705ec")
+		)
+		(pin "239"
+			(uuid "b98ea1b7-f2be-4827-a0d6-c5afea85afdc")
+		)
+		(pin "267"
+			(uuid "66a160d8-573b-4add-90b0-1afd1ec90d68")
+		)
+		(pin "51"
+			(uuid "45d7e9be-e3f9-40cb-8d81-06387d34d2d5")
+		)
+		(instances
+			(project ""
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "MXM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 293.37 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f262a780-b199-4b38-b7ba-0e007cb62b54")
+		(property "Reference" "C20"
+			(at 296.164 195.072 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 296.926 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 293.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 293.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 293.37 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c36e654b-2fa6-40ea-86cd-85992e883776")
+		)
+		(pin "2"
+			(uuid "795c84de-ca61-4dd8-8f91-006f54ad0a33")
+		)
+		(instances
+			(project "tb3-mxm"
+				(path "/f3b449ef-e937-40a9-b846-24224d67c908/adb912ae-2841-4f5a-9092-67f4a9a913a1"
+					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
