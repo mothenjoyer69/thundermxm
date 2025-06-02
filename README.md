@@ -17,8 +17,6 @@ An open source MXM eGPU board featuring an Intel JHL7440 TB3 controller module, 
 ## To-do:
 * Finalize schematics, now that reference files for the TB3 module have arrived
 * Finish routing (waiting on schematic)
-# More info:
-Hi, I am 
-Phytium unhelpfully does not like to share a lot of information, but I have scraped together a lot of it over [here](https://wiki.slop.gay/Phytium/D2000) on my personal wiki. 
+ 
 
-A huge thank you to [wifi](https://github.com/a-little-wifi/) for the advice and help, and everyone else in Hackmods:3 
+This project wouldn't exist without the help of [wifi](https://github.com/a-little-wifi/) and her incredible [MXM Immobilizer project](https://github.com/a-little-wifi/mxm-immobilizer). I also stole the cool MXM outline from there :3
